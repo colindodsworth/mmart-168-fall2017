@@ -22,6 +22,7 @@ const setLanguage = (code) => {
 
 
 const getData = () => {
+  // returns all tweets that include the search term in the specified language 
     const term = document.getElementById('term').value
     const baseURL = 'https://mmart168-twitter-proxy.herokuapp.com/1.1/search/tweets.json?q=' + term
     twitterURL = baseURL + '&lang=' + languageCode
