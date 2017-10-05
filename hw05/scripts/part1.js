@@ -3,6 +3,7 @@ let languageCode = 'en'
 let jsonData
 
 
+
 const setLanguage = (code) => {
     //Note: language codes here: https://www.w3schools.com/tags/ref_language_codes.asp
     languageCode = code
@@ -116,3 +117,5 @@ const getData = () => {
 
         })
 }
+
+// for some reason its not updating my changes so I'm changing something again

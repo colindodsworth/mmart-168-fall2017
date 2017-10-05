@@ -26,6 +26,7 @@ Still really glad I’m not just teaching myself though.
 
 
 
+
 ## Part III: JavaScript Homework
 
 ### Step 1: Reverse a tweet
