@@ -19,6 +19,8 @@ const setLanguage = (code) => {
     getData()
 }
 
+
+
 const clearData = () => {
     const element = document.getElementById('results')
     while (element.firstChild) {
@@ -53,12 +55,50 @@ const getData = () => {
             // HINT: This is a common interview question to screen out javascript devs who don't understand the language's native functions. Google around - you might find a good solution for this problem
             // Once you've written your reverse text function, write a comment describing how it works.
 
+            const reverseText = (theText) => {
+                return theText.split('').reverse().join('')
+            // chained functions:
+            // split() method to return a new array:
+            // revese() method to reverse the new array:
+            // join() method to join all array  elements into a new string:
+          }
+
+            //       OPTION #2 the longer spelled out way
+            const reverseText2 = (str) => {    // same as: function reverseText2 (str) {
+            // split() method to return a new array:
+              const splitString = str.split('')
+            // revese() method to reverse the new array:
+              const reverseArray = splitString.reverse()
+            // join() method to join all array  elements into a new string:
+              const joinArray = reverseArray.join('')
+            // return reversed string
+              return joinArray
+            }
+
+            //       OPTION #3 the hard old way
+            const reverseText3 = (theText) => {
+              let reversedText = ''
+              for(let i = theText.length - 1; i >=0; i--) {
+              	reversedText += theText[i]
+              }
+              return reversedText
+            }
+
             // ---------------------- TASK 2 -----------------------------------
             // 2. Now, write a function called 'reverseTweet' that takes a single string as an input. If the string contains a hashtag (#), it should return the string.
             // If it doesn't contain a hashtag, it should return the string with all characters reversed
             // Update the forEach function so that it reverses tweets that don't have hashtags
             // HINT: Strings have a useful function called indexOf that you may find useful: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
             // HINT: You already have a reverseText function laying around...
+            const reverseTweet = (tweetText) => {
+              // if it has a hashtag return normal:
+              if (tweetText.indexOf('#') === -1 {
+                      return reverseText(tweetText)
+              } else {
+                return tweetText
+              }
+
+
 
             // ---------------------- DELIVERABLE -----------------------------------
             // When somebody searches for a keyword, tweets with hashtags will appear as normal. Tweets with no hashtags will be inexplicably reversed.
@@ -67,7 +107,7 @@ const getData = () => {
             json.statuses.forEach((status) => {
                 div = document.createElement('div')
                 div.className = 'tweet'
-                textNode = document.createTextNode(status.text)
+                textNode = document.createTextNode(reverseText(status.text))
                 div.appendChild(textNode)
                 document.getElementById('results').appendChild(div)
             })

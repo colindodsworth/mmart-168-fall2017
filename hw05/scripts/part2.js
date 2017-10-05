@@ -54,12 +54,19 @@ const getData = () => {
 
             // ---------------------- DELIVERABLE -----------------------------------
             // When somebody searches for a tweet, they will only see tweets that contain hashtags.
+dsd af 
+            tweetsWithHashtags = json.statuses.filter(function (status) {
+                return status.text.indexOf('#') >= 0
+            })
+// just to see the differences:
+console.log(json.statuses)
+console.log(tweetsWithHashtags)
 
-
-            json.statuses.forEach((status) => {
+            tweetsWithHashtags.forEach((status) => {
                 div = document.createElement('div')
                 div.className = 'tweet'
-                textNode = document.createTextNode(status.text)
+                // tweetsWithHashtags = status.text.filter(function (status) { return status.text.indexOf('#') >= 0 })
+                textNode = document.createTextNode(reverseTweet(status.text))
                 div.appendChild(textNode)
                 document.getElementById('results').appendChild(div)
             })

@@ -7,33 +7,39 @@
 ## Preamble
 This homework will require some googling. As a software engineer, a lot of what you'll need to do is express what you're TRYING to do, and then read code and documentation in order to achieve it. Remember: StackOverflow and Mozilla Developer Network (MDN) are your friend!
 
-## Part I: Setting Up Your GitHub
-1. Using the Terminal, navigate to your git repository: `$ cd /path/to/mmart-168-fall2017`
-2. Check out the master branch: `$ git checkout master`
-3. Pull the most recent changes from the upstream repository: `$ git pull --rebase upstream master`
-4. Create a new branch to do Homework 5: `$ git branch homework05`
-5. Checkout your new branch: `$ git checkout homework05`
-6. Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterik next to it).
+## √ Part I: Setting Up Your GitHub
+1. √ Using the Terminal, navigate to your git repository: `$ cd /path/to/mmart-168-fall2017`
+2. √ Check out the master branch: `$ git checkout master`
+3. √ Pull the most recent changes from the upstream repository: `$ git pull --rebase upstream master`
+4. √ Create a new branch to do Homework 5: `$ git branch homework05`
+5. √ Checkout your new branch: `$ git checkout homework05`
+6. √ Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterik next to it).
 
-## PART II: Reading response
-Edit README.MD and write your reading response here!
+## √ PART II: Reading response
+There's This Weird Thing About Programming
+https://medium.com/ladies-storm-hackathons/theres-this-weird-thing-about-programming-aac366676f16j
+
+Colin's Response:
+This article is a pretty good set of inspiration, & mostly just makes me especially grateful for having you guys as teachers that I can really ask stuff & feel entitled to yalls time (haha, only as much as yall wanna give us), & not just being naked in the wilderness trying to hammer a campfire into being. Especially last year during the previous version of this class, my frustration fog was incredibly thick, & often felt embarrassing.
+Sarah had tried to explain that that fog does clear a bit eventually, & it was honestly hard for me to understand how. There’s kinda endlessly more to learn -- won't the fog just keep growing with it? But I've seen it change already, that even when I don’t really quite get things yet, I’m noticeably not so frustrated by it anymore. And thats a pretty cool step.
+Still really glad I’m not just teaching myself though.
+
 
 ## Part III: JavaScript Homework
 
 ### Step 1: Reverse a tweet
-> Open the following 2 files in Atom:
->  
->  * hw05/part1.html
->  * hw05/scripts/part1.js
+Open the following 2 files in Atom:
+  * hw05/part1.html
+  * hw05/scripts/part1.js
 
 Complete the following 2 tasks:
 
-1. Write a function called "reverseText" that takes a single string as an input. It should return that string with all characters reversed (`e.g., "Hello, world" will return "dlrow ,olleH"`).You can test this in the browser by updating the forEach function to reverse every tweet's text
+1. √ Write a function called "reverseText" that takes a single string as an input. It should return that string with all characters reversed (`e.g., "Hello, world" will return "dlrow ,olleH"`). You can test this in the browser by updating the forEach function to reverse every tweet's text
 > HINT: This is a common interview question to screen out javascript devs who don't understand the language's native functions. Google around - you might find a good solution for this problem.
 
 Once you've written your reverse text function, write a comment describing how it works.
 
-2. Now, write a function called "reverseTweet" that takes a single string as an input. If the string contains a hashtag (#), it should return the string. If it doesn't contain a hashtag, it should return the string with all characters reversed. Update the forEach function so that it reverses tweets that don't have hashtags
+2. √ Now, write a function called "reverseTweet" that takes a single string as an input. If the string contains a hashtag (#), it should return the string. If it doesn't contain a hashtag, it should return the string with all characters reversed. Update the forEach function so that it reverses tweets that don't have hashtags
 > HINT: Strings have a useful function called [indexOf]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)) that you may find useful
 > HINT: You already have a reverseText function laying around...
 
@@ -45,10 +51,10 @@ Once you've written your reverse text function, write a comment describing how i
 
 Complete the following task:
 
-1. Create a new variable called tweetsWithHashtags
-2. Call the "filter" function on the json.statuses array. The filter function returns an array, so you can assign the resulting array to the `tweetsWithHashtags` variable. Read more about filter here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-3. Write an anonymous function that checks each tweet's text, and filters out tweets that do NOT have hashtags.
-4. Update the forEach function so that it runs on the new tweetsWithHashtags array
+1. √ Create a new variable called tweetsWithHashtags
+2. √ Call the "filter" function on the json.statuses array. The filter function returns an array, so you can assign the resulting array to the `tweetsWithHashtags` variable. Read more about filter here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+3. √ Write an anonymous function that checks each tweet's text, and filters out tweets that do NOT have hashtags.
+4. √ Update the forEach function so that it runs on the new tweetsWithHashtags array
 
 ### Step 3: Submit Your Homework via GitHub + Moodle
 This week, you're going to submit your homework using GitHub. To do so:
