@@ -20,7 +20,6 @@ const setLanguage = (code) => {
 }
 
 
-
 const clearData = () => {
     const element = document.getElementById('results')
     while (element.firstChild) {
@@ -61,28 +60,29 @@ const getData = () => {
             // split() method to return a new array:
             // revese() method to reverse the new array:
             // join() method to join all array  elements into a new string:
-          }
-
-            //       OPTION #2 the longer spelled out way
-            const reverseText2 = (str) => {    // same as: function reverseText2 (str) {
-            // split() method to return a new array:
-              const splitString = str.split('')
-            // revese() method to reverse the new array:
-              const reverseArray = splitString.reverse()
-            // join() method to join all array  elements into a new string:
-              const joinArray = reverseArray.join('')
-            // return reversed string
-              return joinArray
             }
 
-            //       OPTION #3 the hard old way
-            const reverseText3 = (theText) => {
-              let reversedText = ''
-              for(let i = theText.length - 1; i >=0; i--) {
-              	reversedText += theText[i]
-              }
-              return reversedText
-            }
+
+            // //       OPTION #2 the longer spelled out way
+            // const reverseText2 = (str) => {    // same as: function reverseText2 (str) {
+            // // split() method to return a new array:
+            //   const splitString = str.split('')
+            // // revese() method to reverse the new array:
+            //   const reverseArray = splitString.reverse()
+            // // join() method to join all array  elements into a new string:
+            //   const joinArray = reverseArray.join('')
+            // // return reversed string
+            //   return joinArray
+            // }
+            //
+            // //       OPTION #3 the hard old way
+            // const reverseText3 = (theText) => {
+            //   let reversedText = ''
+            //   for(let i = theText.length - 1; i >=0; i--) {
+            //   	reversedText += theText[i]
+            //   }
+            //   return reversedText
+            // }
 
             // ---------------------- TASK 2 -----------------------------------
             // 2. Now, write a function called 'reverseTweet' that takes a single string as an input. If the string contains a hashtag (#), it should return the string.
@@ -92,11 +92,13 @@ const getData = () => {
             // HINT: You already have a reverseText function laying around...
             const reverseTweet = (tweetText) => {
               // if it has a hashtag return normal:
-              if (tweetText.indexOf('#') === -1 {
+              if (tweetText.indexOf('#') === -1) {
                       return reverseText(tweetText)
               } else {
                 return tweetText
               }
+            }
+
 
 
 
@@ -107,7 +109,7 @@ const getData = () => {
             json.statuses.forEach((status) => {
                 div = document.createElement('div')
                 div.className = 'tweet'
-                textNode = document.createTextNode(reverseText(status.text))
+                textNode = document.createTextNode(reverseTweet(status.text))
                 div.appendChild(textNode)
                 document.getElementById('results').appendChild(div)
             })

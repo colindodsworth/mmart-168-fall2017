@@ -20,9 +20,10 @@ There's This Weird Thing About Programming
 https://medium.com/ladies-storm-hackathons/theres-this-weird-thing-about-programming-aac366676f16j
 
 Colin's Response:
-This article is a pretty good set of inspiration, & mostly just makes me especially grateful for having you guys as teachers that I can really ask stuff & feel entitled to yalls time (haha, only as much as yall wanna give us), & not just being naked in the wilderness trying to hammer a campfire into being. Especially last year during the previous version of this class, my frustration fog was incredibly thick, & often felt embarrassing.
-Sarah had tried to explain that that fog does clear a bit eventually, & it was honestly hard for me to understand how. There’s kinda endlessly more to learn -- won't the fog just keep growing with it? But I've seen it change already, that even when I don’t really quite get things yet, I’m noticeably not so frustrated by it anymore. And thats a pretty cool step.
+This article is a pretty good explanation of the frustrations of the early steps in learning a new skill, & motivation to keep going. Mostly just makes me especially grateful for having you guys as teachers that I can really learn from indepth & feel entitled to yalls time (haha, only as much as yall wanna give us), & not just being alone in the wilderness trying to hammer up a campfire. Especially last year during the previous version of this class, my frustration fog was incredibly thick, & often felt embarrassing.
+Sarah had explained that that fog does clear a bit eventually, & it was honestly hard for me to understand how, besides just trying to believe. But it has, even when I don’t really quite get things now I’m noticeably not so baffled & frustrated. And thats a pretty cool step.
 Still really glad I’m not just teaching myself though.
+
 
 
 ## Part III: JavaScript Homework
