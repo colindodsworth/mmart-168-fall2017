@@ -74,6 +74,3 @@ console.log(tweetsWithHashtags)
 
         })
 }
-
-
-// for some reason its not updating my changes so I'm changing something again
