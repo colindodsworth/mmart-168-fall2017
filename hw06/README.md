@@ -20,7 +20,7 @@ i read What is the Future of Front End Web Development?
 ( https://css-tricks.com/future-front-end-web-development/) by Chris Coyier. The author is pretty quick & loose with terms & concepts that I don't quite grasp yet, definitely geared toward a more advanced audience. So it took me a lot of google rabbithole-ing, reading his previous articles that he references in it (When Does a Project Need React? https://css-tricks.com/project-need-react/) + (Poll Results: “Sites” vs “Apps” https://css-tricks.com/poll-results-sites-vs-apps/), & especially reading the comments, & re-reading the article a bunch of times to drive home certain concepts/terminology. Happy I stuck with it because I now sorta understand a ton of things I had noooo idea about 5 hours ago.
 
 
-recapping his main points:
+Recapping his main points:
 • web apps will be expected to do more complex things, even better, & near instantly.
 • more web apps replacing native software.
 • complex state management recorded in long complex URLs (after the “.com/?…” ).
@@ -29,7 +29,7 @@ recapping his main points:
 • fundamental html & css will always be important, even with changes in usage.
 
 
-here’s a bunch of things he (& commenters) mentioned that I wanted to research more:
+Things mentioned that I wanted to research more:
 • ES6+ (semi-recent update to the scripting language & syntax of Javascript, which brought us arrow functions/const/let)
 • State Management (all of the interactive things & how they are all configured at any given moment.) (“Websites will be built by thinking of what state needs to be managed, then building the right stores for that state.” — things like: Which navigation item is active;  Whether a button is disabled or not;  The value of an input;  Which accordion sections are expanded;  When an area is loading;  The user that is logged in and the team they belong to;  Whether the thing the user is working on is published, or a draft;  All the comments on an article and the bits and bobs that make them up;  The currently viewed article and all its metadata;  An array of related articles and the metadata for those;  A list of authors;  An an activity log of recent actions a user has taken)
 • the main deliverable (the end product that the developers turn in?)

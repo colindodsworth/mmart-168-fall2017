@@ -12,12 +12,6 @@ const toggleLike = () => {
       } else {
           document.getElementById('like').classList.add('active')
       }
-      // nope:
-      // if (document.querySelectorAll('.like')[0].classList.contains('active')) {
-      //     document.querySelectorAll('.like')[1].classList.remove('active')
-      // } else {
-      //     document.querySelectorAll('.like')[3].classList.add('active')
-      // }
 }
 
 // ------------------------------------
