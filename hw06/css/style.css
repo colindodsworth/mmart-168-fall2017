@@ -53,6 +53,7 @@ pre {
   display: block;
   width: 1.5em;
   fill: #7f8c8d;
+  cursor: pointer;
 }
 
 .active {
@@ -63,6 +64,14 @@ pre {
   display: flex;
   justify-content: flex-end;
 }
+
+/*@-webkit-keyframes grow {
+  0%  { transform: scale (1); }
+  100%  { transform: scale (2); }
+}*/
+
+
+
 
 
 
