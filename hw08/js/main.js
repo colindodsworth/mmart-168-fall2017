@@ -2,8 +2,6 @@
 // PART I: Using a while loop, print the message provided 100 times
 //------------------------------------------------------------------
 
-// const name = 'John'
-
 // Creates a list element and appends it to the unordered list in part1
 const appendListElement = (message) => {
   // 1. creates an empty 'list item' container:
@@ -40,7 +38,7 @@ var people = [
     { name: 'Malik', pic: 'http://knight.gamebanana.com/img/ico/sprays/patrick_star_preview_2.png', score: 40 }
 ]
 
-const printAllNames = (counter) => {
+const printNames = (counter) => {
       const img1 = document.createElement('img')
       img1.src = people[counter].pic
       img1.classList.add('avatar')
@@ -54,39 +52,5 @@ const printAllNames = (counter) => {
     }
 
 for (let i = 0; people.length; i++) {
-printAllNames(i)
+printNames(i)
 }
-
-
-
-
-// use a for loop to DRY up the printNames function
-// it should loop over the people array and append
-// the users avatar pic, a greeting, and their score to the HTML
-const printNames = () => {
-  // Message 1
-  const img1 = document.createElement('img')
-  img1.src = people[0].pic
-  img1.classList.add('avatar')
-
-  const paragraph1 = document.createElement('p')
-  const text1 = document.createTextNode('Welcome, ' + people[0].name + '! Your score is: ' + people[0].score)
-  paragraph1.appendChild(text1)
-
-  document.querySelector('#part2').appendChild(img1)
-  document.querySelector('#part2').appendChild(paragraph1)
-
-  // Message 2
-  const img2 = document.createElement('img')
-  img2.src = people[1].pic
-  img2.classList.add('avatar')
-
-  const paragraph2 = document.createElement('p')
-  const text2 = document.createTextNode('Welcome, ' + people[1].name + '! Your score is: ' + people[1].score)
-  paragraph2.appendChild(text2)
-
-  document.querySelector('#part2').appendChild(img2)
-  document.querySelector('#part2').appendChild(paragraph2)
-}
-
-printNames()
